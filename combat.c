@@ -9,7 +9,7 @@ int fCombat (Carac player, Carac monstre)
     int choixMonstre;
 
 
-    while(player.vieAct >= 0 || monstre.vieAct >= 0)
+    while(player.vieAct >= 0 && monstre.vieAct >= 0)
     {
         // tour du joueur
         printf("Une monstre vous a attaque !\n");
