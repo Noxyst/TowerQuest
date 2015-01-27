@@ -3,7 +3,7 @@
 Carac fDistribCarac(Carac player,int pointCarac)
 {
     int choix;
-    int possible = 0; // doit devenir un bool pour plus de practicité
+    int possible = 0; // doit devenir un bool pour plus de practicitÃ©
 
     printf("\nVeuillez faire un choix:\n");
     printf("1. Constitution:\t%d\n", player.consti);
@@ -27,7 +27,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 4)
                 {
                     player.consti++;
-                    pointCarac -= 4;
+                    pointCarac = pointCarac - 4;
                 }
                 else
                 {
@@ -39,7 +39,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 3)
                 {
                     player.consti++;
-                    pointCarac -= 3;
+                    pointCarac = pointCarac - 3;
                 }
                 else
                 {
@@ -51,7 +51,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 2)
                 {
                     player.consti++;
-                    pointCarac -= 2;
+                    pointCarac = pointCarac - 2;
                 }
                 else
                 {
@@ -61,7 +61,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             else
             {
                 player.consti++;
-                pointCarac--;
+                pointCarac = pointCarac - 1;
             }
             break;
         case 2:
@@ -70,7 +70,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 4)
                 {
                     player.force++;
-                    pointCarac -= 4;
+                    pointCarac = pointCarac - 4;
                 }
                 else
                 {
@@ -82,7 +82,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 3)
                 {
                     player.force++;
-                    pointCarac -= 3;
+                    pointCarac = pointCarac - 3;
                 }
                 else
                 {
@@ -94,7 +94,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 2)
                 {
                     player.force++;
-                    pointCarac -= 2;
+                    pointCarac = pointCarac - 2;
                 }
                 else
                 {
@@ -104,7 +104,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             else
             {
                 player.force++;
-                pointCarac --;
+                pointCarac = pointCarac - 1;
             }
             break;
         case 3:
@@ -113,7 +113,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 4)
                 {
                     player.agi++;
-                    pointCarac -= 4;
+                    pointCarac = pointCarac - 4;
                 }
                 else
                 {
@@ -125,7 +125,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 3)
                 {
                     player.agi++;
-                    pointCarac -= 3;
+                    pointCarac = pointCarac - 3;
                 }
                 else
                 {
@@ -137,7 +137,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 2)
                 {
                     player.agi++;
-                    pointCarac -= 2;
+                    pointCarac = pointCarac - 2;
                 }
                 else
                 {
@@ -147,7 +147,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             else
             {
                 player.agi++;
-                pointCarac --;
+                pointCarac = pointCarac - 1;
             }
             break;
         case 4:
@@ -156,7 +156,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 4)
                 {
                     player.def++;
-                    pointCarac -= 4;
+                    pointCarac = pointCarac - 4;
                 }
                 else
                 {
@@ -168,7 +168,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                             if (pointCarac >= 3)
                 {
                     player.def++;
-                    pointCarac -= 3;
+                    pointCarac = pointCarac - 3;
                 }
                 else
                 {
@@ -180,7 +180,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 2)
                 {
                     player.def++;
-                    pointCarac -= 2;
+                    pointCarac = pointCarac - 2;
                 }
                 else
                 {
@@ -190,17 +190,17 @@ Carac fDistribCarac(Carac player,int pointCarac)
             else
             {
                 player.def++;
-                pointCarac --;
+                pointCarac = pointCarac - 1;
             }
             break;
         case 5:
-            printf("Ce choix n'est pas encore possible desolé.\n");
+            printf("Ce choix n'est pas encore possible desolÃ©.\n");
             /* if (player.vol >= 20)
             {
                 if (pointCarac >= 4)
                 {
                     player.vol++;
-                    pointCarac -= 4;
+                    pointCarac = pointCarac - 4;
                 }
                 else
                 {
@@ -212,7 +212,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                             if (pointCarac >= 3)
                 {
                     player.vol++;
-                    pointCarac -= 3;
+                    pointCarac = pointCarac - 3;
                 }
                 else
                 {
@@ -224,7 +224,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
                 if (pointCarac >= 2)
                 {
                     player.vol++;
-                    pointCarac -= 2;
+                    pointCarac = pointCarac - 2;
                 }
                 else
                 {
@@ -234,7 +234,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             else
             {
                 player.vol++;
-                pointCarac --;
+                pointCarac = pointCarac - 1;
             } */
             break;
         case 6:
