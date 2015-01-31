@@ -1,6 +1,6 @@
 #include "main.h"
 
-Carac fDistribCarac(Carac player,int pointCarac)
+/*Carac fDistribCarac(Carac player,int pointCarac)
 {
     int choix;
     int possible = 0; // doit devenir un bool pour plus de practicité
@@ -195,7 +195,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             break;
         case 5:
             printf("Ce choix n'est pas encore possible desolé.\n");
-            /* if (player.vol >= 20)
+             if (player.vol >= 20)
             {
                 if (pointCarac >= 4)
                 {
@@ -235,7 +235,7 @@ Carac fDistribCarac(Carac player,int pointCarac)
             {
                 player.vol++;
                 pointCarac = pointCarac - 1;
-            } */
+            }
             break;
         case 6:
             possible=1;
@@ -248,4 +248,4 @@ Carac fDistribCarac(Carac player,int pointCarac)
     printf("\n\n");
 
     return player;
-}
+} */
